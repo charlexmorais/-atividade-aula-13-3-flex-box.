@@ -1,0 +1,35 @@
+.panel{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50px;
+    height: 300px;
+    
+}
+.elemento{
+  background-color: #e0e0e0;
+  width: 50px;
+  height: 300px;
+  
+}
+.elemento:nth-child(1){
+height: 20%;
+margin-top: 1px;
+border: solid 1px;
+
+}
+.elemento:nth-child(3){
+  height: 20%;
+  margin-top: 5px;
+  border: solid 1px;
+ 
+}
+.maior{
+  height: 50%;
+  margin-top: 5px;
+  border: solid 1px;
+}
+.menor{
+  height: 10%;
+  margin-top: 5px;
+  border: solid 1px;
+}
